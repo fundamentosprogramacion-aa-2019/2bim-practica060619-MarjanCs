@@ -25,15 +25,12 @@ public class ManejoArreglo {
             
             System.out.printf("Ingrese el valor en la posicion : %d ",i);
             valores[i] = sc.nextInt();
-            
+	}
+
+         for(int i=0;i<valores.length;i++){
             System.out.println(valores[i]);
         }
         
-        
-        
-
-
-
 
     }
     
